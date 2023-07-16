@@ -14,6 +14,7 @@
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 
@@ -68,4 +69,30 @@ nav li a {
 
 .banner-description {
     color: #727272;
+}
+.banner img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+
+/* responsive style */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav {
+        flex-direction: column;
+    }
+    
+}
+
+/* tablet display */
+@media screen and (min-width: 576px) and (max-width:960px) {
+    nav {
+
+        flex-direction: column;
+    }
+    
 }
